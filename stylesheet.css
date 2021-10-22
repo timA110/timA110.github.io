@@ -1,0 +1,152 @@
+*{margin:0; padding:0;font-family:sans-serif}
+
+.banner {
+    width:100%;
+    height:120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://data.1freewallpapers.com/download/red-leaf-on-tree-trunk-in-colorful-blur-bokeh-background-nature.jpg);
+    background-size:cover;background-position:center;
+}
+.navbar {
+    width:85%;margin:auto;padding:20px 0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo {width:120px;cursor:pointer;}
+.navbar ul li{
+    list-style:none;
+    display: inline-block;
+    margin:0 20px;
+    position:relative
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;}
+.navbar ul li ::after {
+    content:'';
+    height:3px;
+    width:0;
+    background:rgba(172, 255, 47, 0.829);
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    transition:0s
+}
+.navbar ul li :hover::after{
+    width:100%
+}
+.content {
+    width:100%;
+    position:absolute;
+    top:50%;
+    text-align:center;
+    color:white
+}
+.content h1 {
+    font-size:80px;
+    margin-top:50px
+}
+.content p {
+    margin:20px auto;
+    font-weight:100;
+    line-height:25px
+}
+button{width:200px;
+    padding:15px 0;
+    text-align:center;
+    margin:20px 10px;
+    border-radius:25px;
+    border:2px solid rgba(172, 255, 47, 0.829);
+    font-weight:bold;
+    background:transparent;
+    color:white;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden
+}
+
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    text-align:center;
+    background-color:black;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: white;
+  }
+  
+  .heading h2 {
+    font-weight: normal;padding-bottom: 10px;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+.lesson-icon {
+      position:relative;
+    }
+.lesson-icon img {
+    width:180px;
+    margin-left:30px;
+    height: 180px;
+    border-radius: 50%;
+}
+  
+  
+  .txt-contents {width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:15px;
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-align:center;
+}
+footer {
+    background-color:rgb(27, 27, 27);
+    height:auto;
+    width:100%;
+    padding-top:5px;
+    color:white
+}
+.footer-content {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 { 
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height:3rem;
+}
+.footer-content p {
+    max-width:500px;
+    margin:10px auto;
+    line-height:28px;
+    font-size:14px;
+}
+.socials {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem 0 3rem 0;
+}
+.socials li {
+    margin:0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color:white;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
