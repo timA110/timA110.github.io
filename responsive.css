@@ -1,0 +1,20 @@
+@media (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;}
+    .navbar  {text-align:justify;width:100%;}
+    .content h1 {font-size:60px}
+    footer {width:100%;background:black}
+        .footer-content {width:100%;}
+}
+@media (max-width:670px){
+    .lesson{ 
+        width:100%;}
+        footer {width:100%;background: black}
+        .footer-content {width:100%;}
+        .footer-content p {font-size:10px}
+    .navbar {font-size:12px;padding-top:50px;width:100%;}
+    .navbar img {width:0%}
+    .content h1 {font-size:50px;line-height:36px}
+    .content p {font-size:13px}
+}
